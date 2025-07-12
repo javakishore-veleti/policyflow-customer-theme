@@ -1,0 +1,14 @@
+name: 'PolicyFlow Customer Theme'
+type: theme
+description: 'A custom Drupal theme for PolicyFlow customer portal.'
+core_version_requirement: ^10
+package: Custom
+base theme: classy
+libraries:
+  - customer_theme/global-styling
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  content: 'Content'
+  sidebar_first: 'Sidebar First'
+  footer: 'Footer'
